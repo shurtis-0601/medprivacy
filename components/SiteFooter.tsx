@@ -1,20 +1,15 @@
 export function SiteFooter() {
-  const year = new Date().getFullYear();
   return (
-    <div className="footer">
+    <footer className="footer">
       <div className="container">
         <p>
-          MedPrivacy © {year} — A product of{" "}
-          <a
-            href="https://collabedgesolutions.com.au"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          MedPrivacy by{" "}
+          <a href="https://www.collabedgesolutions.com.au">
             CollabEdge Solutions
           </a>
-          . Built for Australian NDIS and allied health practitioners.
+          &nbsp;·&nbsp; Melbourne, Australia &nbsp;·&nbsp; ABN 38 557 169 242
         </p>
       </div>
-    </div>
+    </footer>
   );
 }
