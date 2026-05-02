@@ -1,6 +1,5 @@
 import React from 'react';
 import Link from 'next/link';
-import { CheckCircle2 } from 'lucide-react';
 // Note: Ensure you import your SiteHeader, SiteFooter components here
 // import SiteHeader from '@/components/SiteHeader';
 // import SiteFooter from '@/components/SiteFooter';
@@ -23,7 +22,6 @@ export default function ThankYouPage() {
         
         {/* Section 1: Confirmation */}
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <CheckCircle2 size={80} className="text-[var(--gold)] mx-auto mb-6" />
           <h1 className="font-serif text-4xl md:text-5xl text-[var(--navy)] mb-6 font-bold">
             Check your inbox
           </h1>
