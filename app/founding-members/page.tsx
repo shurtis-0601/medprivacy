@@ -1,44 +1,12 @@
 "use client";
 
-import React, { useState } from 'react';
-import { useRouter } from 'next/navigation';
+import React from 'react';
 
 export default function FoundingMembersPage() {
-  const router = useRouter();
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [error, setError] = useState<string | null>(null);
-
-  async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
-    event.preventDefault();
-    setIsSubmitting(true);
-    setError(null);
-
-    const form = event.currentTarget;
-    const formData = new FormData(form);
-
-    try {
-      const response = await fetch('[https://bigin.zoho.com.au/crm/WebForm](https://bigin.zoho.com.au/crm/WebForm)', {
-        method: 'POST',
-        body: formData,
-      });
-
-      if (response.ok) {
-        router.push('/founding-members/thank-you');
-      } else {
-        setError('There was a problem submitting your details. Please try again.');
-        setIsSubmitting(false);
-      }
-    } catch (err) {
-      console.error(err);
-      setError('A network error occurred. Please check your connection and try again.');
-      setIsSubmitting(false);
-    }
-  }
-
   return (
     <div className="min-h-screen flex flex-col font-sans bg-white">
       <main className="flex-grow">
-        
+        {/* Section 1: Hero */}
         <section className="py-20 px-4 max-w-4xl mx-auto text-center">
           <div className="inline-block bg-amber-500 text-blue-950 text-sm font-bold py-1 px-3 rounded-full mb-6 uppercase tracking-wider">
             FOUNDING MEMBER TRIAL
@@ -54,7 +22,7 @@ export default function FoundingMembersPage() {
           </p>
         </section>
 
-        
+        {/* Section 2: What you get & Section 3: How this works */}
         <section className="py-16 bg-gray-50 px-4">
           <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12">
             <div>
@@ -99,33 +67,28 @@ export default function FoundingMembersPage() {
           </div>
         </section>
 
-        
+        {/* Section 4: The form */}
         <section className="py-20 px-4 max-w-xl mx-auto">
           <h2 className="font-serif text-3xl text-blue-950 mb-8 font-bold text-center">Get your free access</h2>
           
-          {error && (
-            <div className="bg-red-50 border-l-4 border-red-500 p-4 mb-6 text-red-700">
-              {error}
-            </div>
-          )}
-
-          <form onSubmit={handleSubmit} className="space-y-6">
-            
+          {/* We now use a native HTML form submission */}
+          <form action="https://bigin.zoho.com.au/crm/WebForm" method="POST" encType="multipart/form-data" className="space-y-6">
+            {/* Hidden security fields required by Zoho Bigin */}
             <input type="hidden" name="xnQsjsdp" value="5d8eae7af94f7e88422b898b015267682c4f5957b0395a7844425b495aed0c3e" />
             <input type="hidden" name="zc_gad" id="zc_gad" value="" />
             <input type="hidden" name="xmIwtLD" value="a8040ccffb121eaa4e17f7e1641caa4a88b988555859ff674eff50c03cbef3b18aefb117e9a221a4feef4ef9b6644579" />
             <input type="hidden" name="actionType" value="Q29udGFjdHM=" />
             <input type="hidden" name="rmsg" id="rmsg" value="true" />
-            <input type="hidden" name="returnURL" value="[https://medprivacy.com.au/founding-members/thank-you](https://medprivacy.com.au/founding-members/thank-you)" />
+            <input type="hidden" name="returnURL" value="https://medprivacy.com.au/founding-members/thank-you" />
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
-                <label htmlFor="FirstName" className="block text-sm font-medium text-gray-700 mb-1">First Name</label>
-                <input required type="text" id="FirstName" name="First Name" maxLength={40} className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-950 focus:border-blue-950 outline-none transition-colors" />
+                <label htmlFor="First Name" className="block text-sm font-medium text-gray-700 mb-1">First Name</label>
+                <input required type="text" id="First Name" name="First Name" maxLength={40} className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-950 focus:border-blue-950 outline-none transition-colors" />
               </div>
               <div>
-                <label htmlFor="LastName" className="block text-sm font-medium text-gray-700 mb-1">Last Name</label>
-                <input required type="text" id="LastName" name="Last Name" maxLength={80} className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-950 focus:border-blue-950 outline-none transition-colors" />
+                <label htmlFor="Last Name" className="block text-sm font-medium text-gray-700 mb-1">Last Name</label>
+                <input required type="text" id="Last Name" name="Last Name" maxLength={80} className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-950 focus:border-blue-950 outline-none transition-colors" />
               </div>
             </div>
 
@@ -141,10 +104,9 @@ export default function FoundingMembersPage() {
 
             <button 
               type="submit" 
-              disabled={isSubmitting}
-              className={`w-full bg-amber-500 text-blue-950 font-bold text-lg py-4 px-8 rounded-md transition-all hover:bg-amber-400 focus:ring-4 focus:ring-amber-200 ${isSubmitting ? 'opacity-70 cursor-not-allowed' : ''}`}
+              className="w-full bg-amber-500 text-blue-950 font-bold text-lg py-4 px-8 rounded-md transition-all hover:bg-amber-400 focus:ring-4 focus:ring-amber-200"
             >
-              {isSubmitting ? 'Sending...' : 'Get My Free Access'}
+              Get My Free Access
             </button>
           </form>
 
