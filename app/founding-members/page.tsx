@@ -32,7 +32,7 @@ export default function FoundingMembersPage() {
         setError('There was a problem submitting your details. Please try again.');
         setIsSubmitting(false);
       }
-    } catch (err) {
+   } catch (err) { console.error(err);
       setError('A network error occurred. Please check your connection and try again.');
       setIsSubmitting(false);
     }
