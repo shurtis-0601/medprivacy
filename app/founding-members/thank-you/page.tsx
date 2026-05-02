@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'next/link';
 // Note: Ensure you import your SiteHeader, SiteFooter components here
 // import SiteHeader from '@/components/SiteHeader';
 // import SiteFooter from '@/components/SiteFooter';
