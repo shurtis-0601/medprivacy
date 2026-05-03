@@ -16,25 +16,29 @@ export default function ThankYouPage() {
 
         <a
           href="https://github.com/shurtis-0601/medprivacy/releases/download/v1.0.0/MedPrivacy.exe"
-          className="inline-block w-full bg-amber-500 text-blue-950 font-bold text-lg py-4 px-8 rounded-md hover:bg-amber-400 transition-colors mb-4"
+          className="inline-block w-full bg-amber-500 text-blue-950 font-bold text-lg py-4 px-8 rounded-md hover:bg-amber-400 transition-colors mb-3"
         >
           Download MedPrivacy directly
         </a>
 
+        <p className="text-sm text-gray-500 mb-6">
+          Windows may show a security prompt when opening the installer. Click "More info" then "Run anyway" to proceed. MedPrivacy runs entirely on your computer and does not connect to the internet.
+        </p>
+
         <div className="bg-blue-50 border border-blue-100 rounded-lg p-6 mb-6 text-left">
           <h2 className="font-bold text-blue-950 mb-2">While you wait</h2>
           <p className="text-gray-700">
-            Join the AI and Automation for NDIS and Allied Health Providers Facebook group. Introduce yourself and share the number one administrative headache costing your business time right now.
+            Follow the CollabEdge Solutions Facebook page for AI workflows, NDIS compliance strategies, and updates on the Founding 100 waitlist.
           </p>
         </div>
 
         <a 
-          href="https://www.facebook.com/groups/1633263244680281" 
+          href="https://www.facebook.com/collabedge/" 
           target="_blank" 
           rel="noopener noreferrer"
           className="inline-block w-full bg-blue-950 text-white font-bold text-lg py-4 px-8 rounded-md hover:bg-blue-900 transition-colors"
         >
-          Join the Facebook group
+          Follow CollabEdge on Facebook
         </a>
 
         <p className="text-sm text-gray-500 mt-6">
