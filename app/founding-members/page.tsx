@@ -18,7 +18,7 @@ export default function FoundingMembersPage() {
             Free 30-day MedPrivacy trial for the Founding 100. Your download lands in your inbox in under a minute.
           </p>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            As promised in the group, this is the privacy-safe AI workflow for your NDIS documentation. MedPrivacy strips identifying information from your clinical documents before anything goes near AI. Pair it with NotebookLM and you have a fully defensible, citation-backed drafting workflow. Drop your details below and the download link plus the full workflow guide land in your inbox straight away.
+            This is the privacy-safe AI workflow built for NDIS and Allied Health documentation. MedPrivacy strips identifying information from your clinical documents before anything goes near AI. Pair it with NotebookLM and you have a fully defensible, citation-backed drafting workflow. Drop your details below and the download link plus the full workflow guide land in your inbox straight away.
           </p>
         </section>
 
@@ -72,7 +72,6 @@ export default function FoundingMembersPage() {
           <h2 className="font-serif text-3xl text-blue-950 mb-8 font-bold text-center">Get your free access</h2>
           
           <form action="https://bigin.zoho.com.au/crm/WebForm" method="POST" encType="multipart/form-data" className="space-y-6">
-            {/* Fresh Zoho Bigin Security Tokens */}
             <input type="hidden" name="xnQsjsdp" value="af56ed56e18ee8b54aaae9e7df449306e9b4733c2821552fa4f9eaddc679f6df" />
             <input type="hidden" name="zc_gad" id="zc_gad" value="" />
             <input type="hidden" name="xmIwtLD" value="88ea2d73d9b0be1d4f02fe0e4774fc9e8b186e15e6e7a3faa4f959ce62ab97aa43faa828243e35dbb7c6708393151b86" />
@@ -97,8 +96,7 @@ export default function FoundingMembersPage() {
             </div>
 
             <div>
-              <label htmlFor="Company" className="block text-sm font-medium text-gray-700 mb-1">Company Name</label>
-              {/* This is the strict database mapping required by Zoho */}
+              <label htmlFor="Company" className="block text-sm font-medium text-gray-700 mb-1">Practice or Organisation Name</label>
               <input required type="text" id="Company" name="Accounts.Account Name" maxLength={200} className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-950 focus:border-blue-950 outline-none transition-colors" />
             </div>
 
@@ -111,7 +109,7 @@ export default function FoundingMembersPage() {
           </form>
 
           <p className="text-center text-sm text-gray-500 mt-6 max-w-sm mx-auto">
-            Your details are private. We do not share your contact details with third parties.
+            Your details are private. Only Sinclair Hurtis sees what you submit. We do not share your contact details with third parties.
           </p>
         </section>
       </main>
