@@ -22,12 +22,12 @@ export default function ThankYouPage() {
         </div>
 
         <a 
-          href="[https://www.linkedin.com/company/collabedge-solutions/](https://www.linkedin.com/company/collabedge-solutions/)" 
+          href="https://www.facebook.com/collabedge/" 
           target="_blank" 
           rel="noopener noreferrer"
           className="inline-block w-full bg-blue-950 text-white font-bold text-lg py-4 px-8 rounded-md hover:bg-blue-900 transition-colors"
         >
-          Follow CollabEdge Solutions
+          Follow CollabEdge on Facebook
         </a>
       </div>
     </div>
