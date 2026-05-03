@@ -18,7 +18,7 @@ export default function FoundingMembersPage() {
             Free 30-day MedPrivacy trial for the Founding 100. Your download lands in your inbox in under a minute.
           </p>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            This is the privacy-safe AI workflow built for NDIS and Allied Health documentation. MedPrivacy strips identifying information from your clinical documents before anything goes near AI. Pair it with NotebookLM and you have a fully defensible, citation-backed drafting workflow. Drop your details below and the download link plus the full workflow guide land in your inbox straight away.
+            This is the privacy-safe AI workflow built for NDIS and Allied Health documentation. MedPrivacy strips identifying information from your clinical documents before anything goes near AI. Everything runs on your computer. Nothing goes to the cloud.
           </p>
         </section>
 
@@ -34,7 +34,7 @@ export default function FoundingMembersPage() {
                 </li>
                 <li className="flex items-start">
                   <span className="text-amber-500 font-bold mr-3">✓</span>
-                  Step-by-step NotebookLM workflow guide for Change of Circumstances and other clinical reports
+                  Your database template to set up participant, carer and provider names in one go
                 </li>
                 <li className="flex items-start">
                   <span className="text-amber-500 font-bold mr-3">✓</span>
@@ -52,11 +52,11 @@ export default function FoundingMembersPage() {
               <div className="space-y-6">
                 <div>
                   <h3 className="font-bold text-lg text-blue-950">Step 1: Drop your details below</h3>
-                  <p className="text-gray-600 mt-1">Your download link and workflow guide land in your inbox within 60 seconds.</p>
+                  <p className="text-gray-600 mt-1">Your download and database template land in your inbox within 60 seconds.</p>
                 </div>
                 <div>
-                  <h3 className="font-bold text-lg text-blue-950">Step 2: Install MedPrivacy and follow the workflow guide</h3>
-                  <p className="text-gray-600 mt-1">Setup takes about 10 minutes. De-identify your documents with MedPrivacy, then process them through NotebookLM. Two hours instead of eight on complex reports.</p>
+                  <h3 className="font-bold text-lg text-blue-950">Step 2: Install MedPrivacy and set up your database</h3>
+                  <p className="text-gray-600 mt-1">Setup takes about 10 minutes. Add your participant, carer and provider names to the database, then drop a test document in and run it. De-identified output is ready in under a minute.</p>
                 </div>
                 <div>
                   <h3 className="font-bold text-lg text-blue-950">Step 3: Tell me honestly what works and what does not</h3>
