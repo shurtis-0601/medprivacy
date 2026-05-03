@@ -71,12 +71,11 @@ export default function FoundingMembersPage() {
         <section className="py-20 px-4 max-w-xl mx-auto">
           <h2 className="font-serif text-3xl text-blue-950 mb-8 font-bold text-center">Get your free access</h2>
           
-          {/* We now use a native HTML form submission */}
           <form action="https://bigin.zoho.com.au/crm/WebForm" method="POST" encType="multipart/form-data" className="space-y-6">
-            {/* Hidden security fields required by Zoho Bigin */}
-            <input type="hidden" name="xnQsjsdp" value="5d8eae7af94f7e88422b898b015267682c4f5957b0395a7844425b495aed0c3e" />
+            {/* Fresh Zoho Bigin Security Tokens */}
+            <input type="hidden" name="xnQsjsdp" value="af56ed56e18ee8b54aaae9e7df449306e9b4733c2821552fa4f9eaddc679f6df" />
             <input type="hidden" name="zc_gad" id="zc_gad" value="" />
-            <input type="hidden" name="xmIwtLD" value="a8040ccffb121eaa4e17f7e1641caa4a88b988555859ff674eff50c03cbef3b18aefb117e9a221a4feef4ef9b6644579" />
+            <input type="hidden" name="xmIwtLD" value="88ea2d73d9b0be1d4f02fe0e4774fc9e8b186e15e6e7a3faa4f959ce62ab97aa43faa828243e35dbb7c6708393151b86" />
             <input type="hidden" name="actionType" value="Q29udGFjdHM=" />
             <input type="hidden" name="rmsg" id="rmsg" value="true" />
             <input type="hidden" name="returnURL" value="https://medprivacy.com.au/founding-members/thank-you" />
@@ -99,7 +98,8 @@ export default function FoundingMembersPage() {
 
             <div>
               <label htmlFor="Company" className="block text-sm font-medium text-gray-700 mb-1">Company Name</label>
-              <input required type="text" id="Company" name="Company" maxLength={100} className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-950 focus:border-blue-950 outline-none transition-colors" />
+              {/* This is the strict database mapping required by Zoho */}
+              <input required type="text" id="Company" name="Accounts.Account Name" maxLength={200} className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-950 focus:border-blue-950 outline-none transition-colors" />
             </div>
 
             <button 
