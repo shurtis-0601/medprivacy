@@ -22,7 +22,7 @@ export default function ThankYouPage() {
         </a>
 
         <p className="text-sm text-gray-500 mb-6">
-          Windows may show a security prompt when opening the installer. Click "More info" then "Run anyway" to proceed. MedPrivacy runs entirely on your computer and does not connect to the internet.
+          Windows may show a security prompt when opening the installer. Click More info then Run anyway to proceed. MedPrivacy runs entirely on your computer and does not connect to the internet.
         </p>
 
         <div className="bg-blue-50 border border-blue-100 rounded-lg p-6 mb-6 text-left">
@@ -32,9 +32,9 @@ export default function ThankYouPage() {
           </p>
         </div>
 
-        <a 
-          href="https://www.facebook.com/collabedge/" 
-          target="_blank" 
+        <a
+          href="https://www.facebook.com/collabedge/"
+          target="_blank"
           rel="noopener noreferrer"
           className="inline-block w-full bg-blue-950 text-white font-bold text-lg py-4 px-8 rounded-md hover:bg-blue-900 transition-colors"
         >
