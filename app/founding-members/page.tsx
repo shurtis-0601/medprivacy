@@ -42,7 +42,7 @@ export default function FoundingMembersPage() {
                 </li>
                 <li className="flex items-start">
                   <span className="text-amber-500 font-bold mr-3">✓</span>
-                  Check-ins from Sinclair at days 3, 14 and 28 of your trial
+                  Check-ins from Sinclair, principal consultant of CollabEdge Solutions at days 3, 14 and 28 of your trial
                 </li>
               </ul>
             </div>
@@ -109,7 +109,7 @@ export default function FoundingMembersPage() {
           </form>
 
           <p className="text-center text-sm text-gray-500 mt-6 max-w-sm mx-auto">
-            Your details are private. Only Sinclair Hurtis sees what you submit. We do not share your contact details with third parties.
+            CollabEdge Solutions respects your privacy. Your details are used only to manage your MedPrivacy trial and will never be shared with third parties.
           </p>
         </section>
       </main>
