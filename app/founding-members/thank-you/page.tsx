@@ -21,10 +21,13 @@ export default function ThankYouPage() {
           Download MedPrivacy directly
         </a>
 
-        <p className="text-sm text-gray-500 mb-6">
-          Windows may show a security prompt when opening the installer. Click More info then Run anyway to proceed. MedPrivacy runs entirely on your computer and does not connect to the internet.
+        <p className="text-sm text-gray-500 mb-3">
+            MedPrivacy is currently available for Windows only. Mac version coming soon.
         </p>
-
+        <p className="text-sm text-gray-500 mb-6">
+            Windows may show a security prompt when opening the installer. Click More info then Run anyway to proceed. MedPrivacy runs entirely on your computer and does not connect to the internet.
+        </p>
+       
         <div className="bg-blue-50 border border-blue-100 rounded-lg p-6 mb-6 text-left">
           <h2 className="font-bold text-blue-950 mb-2">While you wait</h2>
           <p className="text-gray-700">
