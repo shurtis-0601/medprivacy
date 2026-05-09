@@ -11,23 +11,29 @@ export default function ThankYouPage() {
         </div>
         <h1 className="text-3xl font-bold text-blue-950 mb-4">Check your inbox</h1>
         <p className="text-lg text-gray-700 mb-8">
-          Your MedPrivacy download and NotebookLM workflow guide are in your inbox now. If you do not see the email within a minute, please check your spam folder.
+          Your MedPrivacy download and database template are in your inbox now. If you do not see the email within a minute, please check your spam folder.
         </p>
 
-        <a
-          href="https://github.com/shurtis-0601/medprivacy/releases/download/v1.0.0/MedPrivacy.exe"
-          className="inline-block w-full bg-amber-500 text-blue-950 font-bold text-lg py-4 px-8 rounded-md hover:bg-amber-400 transition-colors mb-3"
-        >
-          Download MedPrivacy directly
-        </a>
+        <div className="space-y-3 mb-3">
+          <a
+            href="https://github.com/shurtis-0601/medprivacy/releases/download/v1.0.0/MedPrivacy.exe"
+            className="inline-block w-full bg-amber-500 text-blue-950 font-bold text-lg py-4 px-8 rounded-md hover:bg-amber-400 transition-colors"
+          >
+            Download MedPrivacy for Windows
+          </a>
+          <a
+            href="https://github.com/shurtis-0601/medprivacy/releases/download/v1.0.0/MedPrivacy-Mac.zip"
+            className="inline-block w-full bg-amber-500 text-blue-950 font-bold text-lg py-4 px-8 rounded-md hover:bg-amber-400 transition-colors"
+          >
+            Download MedPrivacy for Mac (Beta)
+          </a>
+        </div>
 
-        <p className="text-sm text-gray-500 mb-3">
-            MedPrivacy is currently available for Windows only. Mac version coming soon.
-        </p>
         <p className="text-sm text-gray-500 mb-6">
-            Windows may show a security prompt when opening the installer. Click More info then Run anyway to proceed. MedPrivacy runs entirely on your computer and does not connect to the internet.
+          Windows: If a security prompt appears, click More info then Run anyway.
+          Mac: Unzip the file, drag MedPrivacy to Applications, then open it. If blocked, go to System Settings then Privacy and Security and click Open Anyway.
         </p>
-       
+
         <div className="bg-blue-50 border border-blue-100 rounded-lg p-6 mb-6 text-left">
           <h2 className="font-bold text-blue-950 mb-2">While you wait</h2>
           <p className="text-gray-700">
