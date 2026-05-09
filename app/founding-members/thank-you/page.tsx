@@ -29,15 +29,19 @@ export default function ThankYouPage() {
           </a>
         </div>
 
-        <p className="text-sm text-gray-500 mb-6">
-          Windows: If a security prompt appears, click More info then Run anyway.
-          Mac: Unzip the file, drag MedPrivacy to Applications, then open it. If blocked, go to System Settings then Privacy and Security and click Open Anyway.
-        </p>
+        <div className="text-sm text-gray-500 mb-6 text-left space-y-2">
+          <p>
+            <span className="font-semibold">Windows:</span> If a security prompt appears, click More info then Run anyway.
+          </p>
+          <p>
+            <span className="font-semibold">Mac:</span> Unzip the file, drag MedPrivacy to Applications, then open it. If blocked, go to System Settings then Privacy and Security and click Open Anyway.
+          </p>
+        </div>
 
         <div className="bg-blue-50 border border-blue-100 rounded-lg p-6 mb-6 text-left">
           <h2 className="font-bold text-blue-950 mb-2">While you wait</h2>
           <p className="text-gray-700">
-            Follow the CollabEdge Solutions Facebook page for AI workflows, NDIS compliance strategies, and updates on the Founding 100 waitlist.
+            Follow the CollabEdge Solutions Facebook page for AI workflows and NDIS compliance strategies.
           </p>
         </div>
 
@@ -50,9 +54,6 @@ export default function ThankYouPage() {
           Follow CollabEdge on Facebook
         </a>
 
-        <p className="text-sm text-gray-500 mt-6">
-          Cheers, Sinclair
-        </p>
       </div>
     </div>
   );
