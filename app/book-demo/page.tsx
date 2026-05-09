@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
 };
 
-const BOOKING_URL = "https://calendar.app.google/3giPfnv9ZY1ub7wB6";
+const BOOKING_URL = "https://au.bigin.online/org7006551924/bookings/medprivacy-demo";
 
 export default function BookDemoPage() {
   return (
@@ -52,7 +52,7 @@ export default function BookDemoPage() {
             }}
           >
             <iframe
-              src={`${BOOKING_URL}?gv=true`}
+              src={BOOKING_URL}
               title="MedPrivacy demo booking calendar"
               width="100%"
               height="700"
