@@ -30,7 +30,7 @@ export default function FoundingMembersPage() {
               <ul className="space-y-4 text-gray-700 text-lg">
                 <li className="flex items-start">
                   <span className="text-amber-500 font-bold mr-3">✓</span>
-                  Direct download link to MedPrivacy for Windows (the .exe installer)
+                  Direct download link to MedPrivacy for Windows or Mac
                 </li>
                 <li className="flex items-start">
                   <span className="text-amber-500 font-bold mr-3">✓</span>
@@ -42,7 +42,7 @@ export default function FoundingMembersPage() {
                 </li>
                 <li className="flex items-start">
                   <span className="text-amber-500 font-bold mr-3">✓</span>
-                  Check-ins from Sinclair, principal consultant of CollabEdge Solutions at days 3, 14 and 28 of your trial
+                  Check-ins from Sinclair at days 3, 14 and 28 of your trial
                 </li>
               </ul>
             </div>
@@ -60,7 +60,7 @@ export default function FoundingMembersPage() {
                 </div>
                 <div>
                   <h3 className="font-bold text-lg text-blue-950">Step 3: Tell me honestly what works and what does not</h3>
-                  <p className="text-gray-600 mt-1">We will check in on days 3, 14 and 28. Your feedback directly shapes the product. At the end of 30 days, founding members lock in a permanent rate based on what they tell me feels fair.</p>
+                  <p className="text-gray-600 mt-1">I will check in on days 3, 14 and 28. Your feedback directly shapes the product. At the end of 30 days, founding members lock in a permanent rate based on what they tell me feels fair.</p>
                 </div>
               </div>
             </div>
