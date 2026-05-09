@@ -24,7 +24,7 @@ export function CTASection() {
               Start Your Free 30-Day Trial
             </a>
             <a
-              href="https://www.collabedgesolutions.com.au/appt"
+              href="/book-demo"
               className="btn btn-outline"
             >
               Book a Demo
