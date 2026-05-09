@@ -18,7 +18,7 @@ export function CTASection() {
           </p>
           <div className="cta-btns">
             <a
-              href="mailto:info@collabedgesolutions.com.au?subject=MedPrivacy%20Trial%20Request"
+              href="/founding-members"
               className="btn btn-gold"
             >
               Start Your Free 30-Day Trial

@@ -30,7 +30,7 @@ export function PricingCards() {
               <li>30-day free trial included</li>
             </ul>
             <a
-              href="mailto:info@collabedgesolutions.com.au?subject=MedPrivacy%20Solo%20Enquiry"
+              href="/founding-members"
               className="btn btn-navy"
               style={{
                 width: "100%",
@@ -38,7 +38,7 @@ export function PricingCards() {
                 display: "block",
               }}
             >
-              Get in Touch
+              Start Free Trial
             </a>
           </div>
           <div className="p-card featured">
@@ -60,7 +60,7 @@ export function PricingCards() {
               <li>30-day free trial included</li>
             </ul>
             <a
-              href="mailto:info@collabedgesolutions.com.au?subject=MedPrivacy%20Practice%20Enquiry"
+              href="/founding-members"
               className="btn btn-gold"
               style={{
                 width: "100%",
@@ -68,7 +68,7 @@ export function PricingCards() {
                 display: "block",
               }}
             >
-              Get in Touch
+              Start Free Trial
             </a>
           </div>
           <div className="p-card">
@@ -87,7 +87,7 @@ export function PricingCards() {
               <li>30-day free trial included</li>
             </ul>
             <a
-              href="mailto:info@collabedgesolutions.com.au?subject=MedPrivacy%20Group%20Enquiry"
+              href="/founding-members"
               className="btn btn-navy"
               style={{
                 width: "100%",
@@ -95,7 +95,7 @@ export function PricingCards() {
                 display: "block",
               }}
             >
-              Get in Touch
+              Start Free Trial
             </a>
           </div>
         </FadeIn>

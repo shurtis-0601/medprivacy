@@ -3,7 +3,7 @@ export function ProductHero() {
     <section className="hero">
       <div className="hero-inner">
         <div className="hero-badge">
-          <span>🔒</span>{" "}
+          <span>🔒</span>{", "}
           <strong>
             By CollabEdge Solutions &nbsp;·&nbsp; Built for Australian NDIS
             and Allied Health Practitioners
@@ -28,7 +28,7 @@ export function ProductHero() {
 
         <div className="hero-btns">
           <a
-            href="mailto:info@collabedgesolutions.com.au?subject=MedPrivacy%20Trial%20Request"
+            href="/founding-members"
             className="btn btn-gold"
           >
             Start Your Free 30-Day Trial
