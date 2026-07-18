@@ -34,7 +34,7 @@ export function ProductHero() {
             Start Your Free 30-Day Trial
           </a>
           <a
-            href="https://www.collabedgesolutions.com.au/medprivacy-demo"
+            href="https://www.collabedgesolutions.com.au/resources/videos"
             className="btn btn-outline"
           >
             Watch How It Works
