@@ -17,7 +17,7 @@ export const FAQ_ITEMS: FAQItem[] = [
   {
     question: "What file formats does MedPrivacy support?",
     answer:
-      "MedPrivacy supports PDF, Word documents (.docx), and plain text files (.txt). For best results with PDFs, ensure the text is extractable rather than a scanned image. If your PDF is scanned, run it through OCR software first.",
+      "MedPrivacy supports PDF, Word documents (.docx), and plain text files (.txt). For best results with PDFs, ensure the text is extractable rather than a scanned image. Scanned documents are not supported in this edition. Use a PDF with selectable text.",
   },
   {
     question: "Why do carer and parent names need to be in the database?",

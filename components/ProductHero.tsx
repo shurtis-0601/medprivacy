@@ -13,15 +13,16 @@ export function ProductHero() {
           De-identify Clinical Documents<br />
           in <em>30 Seconds.</em>
           <br />
-          Use AI More Safely. Stay in Control of Your Data.
+          Remove Identifiers Before You Use AI. Stay in Control of Your Data.
         </h1>
         <p className="hero-sub">
           MedPrivacy automatically removes personal information from NDIS
-          clinical reports so you can safely use ChatGPT and Claude for
-          documentation — while reducing privacy and compliance risk.
+          clinical reports before you use ChatGPT, Claude or similar tools for
+          documentation, while reducing privacy risk.
         </p>
         <p className="hero-sub-2">
-          100% local processing &nbsp;·&nbsp; Nothing uploaded. Nothing shared
+          Processing runs on your computer. MedPrivacy uploads nothing. The AI
+          step that follows is where data leaves your computer.
           <br />
           Always review before using AI &nbsp;&nbsp;
         </p>
@@ -46,12 +47,8 @@ export function ProductHero() {
             <span className="stat-label">per document</span>
           </div>
           <div className="stat-item">
-            <span className="stat-num">100%</span>
-            <span className="stat-label">local processing</span>
-          </div>
-          <div className="stat-item">
-            <span className="stat-num">v2.0.5</span>
-            <span className="stat-label">current version</span>
+            <span className="stat-num">✓</span>
+            <span className="stat-label">Local processing</span>
           </div>
           <div className="stat-item">
             <span className="stat-num">30</span>

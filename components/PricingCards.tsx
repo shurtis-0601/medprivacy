@@ -54,7 +54,6 @@ export function PricingCards() {
             <p className="p-sub">For practices with 2 to 5 practitioners</p>
             <ul className="p-features">
               <li>Full PII detection engine</li>
-              <li>Shared client database</li>
               <li>PDF, DOCX and TXT support</li>
               <li>Priority email support</li>
               <li>30-day free trial included</li>
@@ -81,7 +80,6 @@ export function PricingCards() {
             <p className="p-sub">For groups with 6 or more practitioners</p>
             <ul className="p-features">
               <li>Full PII detection engine</li>
-              <li>Shared client database</li>
               <li>PDF, DOCX and TXT support</li>
               <li>Phone and email support</li>
               <li>30-day free trial included</li>

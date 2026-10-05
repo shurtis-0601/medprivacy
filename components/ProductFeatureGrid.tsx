@@ -25,7 +25,7 @@ export function ProductFeatureGrid() {
           />
         </FadeIn>
         <p className="app-screenshot-caption">
-          MedPrivacy v2.0.5 — Process tab. Add files, click Run, open your
+          MedPrivacy — Process tab. Add files, click Run, open your
           De-identified folder.
         </p>
         <div className="what-cards">
@@ -35,15 +35,16 @@ export function ProductFeatureGrid() {
             <p>
               Detects and replaces names, addresses, NDIS numbers, phone
               numbers, emails and dates of birth with privacy tags like [NAME]
-              and [NDIS]. Clinical content is preserved completely.
+              and [NDIS]. Clinical wording is left in place. Only the
+              identifiers it finds are replaced.
             </p>
           </FadeIn>
           <FadeIn className="what-card">
             <div className="card-icon">💻</div>
             <h3>Runs Entirely on Your Computer</h3>
             <p>
-              No cloud uploads. No third-party servers. Your documents never
-              leave your machine. 100% local processing, every single time. No
+              Processing runs on your computer. MedPrivacy uploads nothing.
+              The AI step that follows is where data leaves your computer. No
               internet connection required during processing.
             </p>
           </FadeIn>
