@@ -13,17 +13,13 @@ export function ProductHero() {
           De-identify Clinical Documents<br />
           in <em>30 Seconds.</em>
           <br />
-          Use AI More Safely. Stay in Control of Your Data.
+          Remove Identifiers Before You Use AI. Stay in Control of Your Data.
         </h1>
         <p className="hero-sub">
-          MedPrivacy automatically removes personal information from NDIS
-          clinical reports so you can safely use ChatGPT and Claude for
-          documentation — while reducing privacy and compliance risk.
+          Runs on your computer. MedPrivacy uploads nothing. Data leaves your computer only at the AI step.
         </p>
         <p className="hero-sub-2">
-          100% local processing &nbsp;·&nbsp; Nothing uploaded. Nothing shared
-          <br />
-          Always review before using AI &nbsp;&nbsp;
+          Always review before using AI.
         </p>
 
         <div className="hero-btns">
@@ -33,12 +29,14 @@ export function ProductHero() {
           >
             Start Your Free 30-Day Trial
           </a>
+          {/* HIDDEN UNTIL NEW VIDEO: restore the block below when a new demo video exists at collabedgesolutions.com.au/resources/videos
           <a
             href="https://www.collabedgesolutions.com.au/resources/videos"
             className="btn btn-outline"
           >
             Watch How It Works
           </a>
+          */}
         </div>
         <div className="hero-stats">
           <div className="stat-item">
@@ -46,12 +44,8 @@ export function ProductHero() {
             <span className="stat-label">per document</span>
           </div>
           <div className="stat-item">
-            <span className="stat-num">100%</span>
-            <span className="stat-label">local processing</span>
-          </div>
-          <div className="stat-item">
-            <span className="stat-num">v2.0.5</span>
-            <span className="stat-label">current version</span>
+            <span className="stat-num">Local</span>
+            <span className="stat-label">processing</span>
           </div>
           <div className="stat-item">
             <span className="stat-num">30</span>

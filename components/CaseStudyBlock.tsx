@@ -5,7 +5,8 @@ export function CaseStudyBlock() {
     <section className="case">
       <div className="container">
         <FadeIn className="case-inner">
-          <div className="section-label">Real Results</div>
+          <div className="section-label">Founder case study</div>
+          <p style={{ marginBottom: "1rem", fontSize: "0.9rem", color: "var(--gray-txt)" }}>One case, not typical.</p>
           <div className="case-quote">
             &ldquo;I had four clinical reports totalling{" "}
             <span className="case-highlight">51 pages</span>. Every page
@@ -33,7 +34,7 @@ export function CaseStudyBlock() {
             <span className="case-highlight">
               two hours versus six to eight hours
             </span>{" "}
-            the traditional way. Privacy protected throughout.&rdquo;
+            the traditional way.&rdquo;
           </div>
           <div className="case-attribution">
             <span className="case-name">Sinclair Hurtis</span>

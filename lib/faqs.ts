@@ -10,14 +10,24 @@ export const FAQ_ITEMS: FAQItem[] = [
       "MedPrivacy performs de-identification by removing direct personal identifiers from documents and processes everything locally on your computer with no cloud uploads. Users remain responsible for assessing whether de-identified documents meet their specific privacy, ethics, and regulatory requirements. For research purposes, consult your ethics committee. For clinical purposes, follow your organisation's privacy policies.",
   },
   {
+    question: "What does MedPrivacy do with images such as letterheads, logos and signatures?",
+    answer:
+      "Letterhead and repeated images, such as a logo on every page, are removed by default. Other images, such as signatures, photos and charts, are kept, and text inside them is not read, so a name or number inside an image stays visible. MedPrivacy lists the images it kept, so check those pages, and check the top and bottom of every page, before you use the output with an AI tool.",
+  },
+  {
     question: "Does MedPrivacy upload my documents to the cloud?",
     answer:
-      "No. MedPrivacy runs entirely on your local computer. Documents are never uploaded to any server. All processing happens on your machine and your machine only. No internet connection is required during document processing.",
+      "No. MedPrivacy processes documents on your computer and does not upload them to any server. If you then use an AI tool, that is where data leaves your computer, so check that tool before you use it. No internet connection is required during processing.",
   },
   {
     question: "What file formats does MedPrivacy support?",
     answer:
-      "MedPrivacy supports PDF, Word documents (.docx), and plain text files (.txt). For best results with PDFs, ensure the text is extractable rather than a scanned image. If your PDF is scanned, run it through OCR software first.",
+      "MedPrivacy supports PDF, Word documents (.docx), and plain text files (.txt). For best results with PDFs, ensure the text is extractable rather than a scanned image. Scanned documents are not supported in this edition. Use a PDF with selectable text.",
+  },
+  {
+    question: "Does MedPrivacy work on a Mac?",
+    answer:
+      "Windows is available now. A Mac version is in progress. Reply to your welcome email to be notified.",
   },
   {
     question: "Why do carer and parent names need to be in the database?",

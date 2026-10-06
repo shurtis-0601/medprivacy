@@ -7,9 +7,9 @@ export function DetectionMatrix() {
         <FadeIn className="detection-header">
           <div className="section-label">What Gets Detected</div>
           <h2>
-            Comprehensive Detection.
+            Automatic Detection of Common Identifiers.
             <br />
-            Zero Manual Work for Common Identifiers.
+            Names Need Your Database.
           </h2>
           <p>
             The core engine handles pattern-detectable information

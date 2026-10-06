@@ -9,8 +9,6 @@ import { ProductFeatureGrid } from "@/components/ProductFeatureGrid";
 import { ProductHero } from "@/components/ProductHero";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
-import { WarningBar } from "@/components/WarningBar";
-
 export default function Home() {
   return (
     <div id="medprivacy">
@@ -22,7 +20,6 @@ export default function Home() {
       <DetectionMatrix />
       <CaseStudyBlock />
       <PricingCards />
-      <WarningBar />
       <FAQAccordion />
       <CTASection />
       <SiteFooter />

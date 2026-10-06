@@ -19,9 +19,9 @@ export function ProblemSection() {
               number, and family details.
             </p>
             <p>
-              Uploading that to ChatGPT or Claude without removing the personal
-              information first is a breach of the Privacy Act 1988 and your
-              NDIS obligations.
+              Sending identifiable participant information to an AI tool can
+              raise serious privacy and NDIS obligations. Check your own
+              obligations before you do.
             </p>
             <p>
               Manual de-identification takes 15 to 60 minutes per document and

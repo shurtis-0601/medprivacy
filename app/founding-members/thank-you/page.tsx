@@ -11,30 +11,24 @@ export default function ThankYouPage() {
         </div>
         <h1 className="text-3xl font-bold text-blue-950 mb-4">Check your inbox</h1>
         <p className="text-lg text-gray-700 mb-8">
-          Your MedPrivacy download and database template are in your inbox now. If you do not see the email within a minute, please check your spam folder.
+          Your MedPrivacy download and database template are in your inbox now. If you do not see the email within a few minutes, please check your spam folder.
         </p>
 
         <div className="space-y-3 mb-3">
           <a
-            href="https://github.com/shurtis-0601/medprivacy/releases/download/v1.0.0/MedPrivacy.exe"
+            href="https://github.com/shurtis-0601/medprivacy/releases/download/v2.1.2/MedPrivacy-Windows-presentation.exe"
             className="inline-block w-full bg-amber-500 text-blue-950 font-bold text-lg py-4 px-8 rounded-md hover:bg-amber-400 transition-colors"
           >
             Download MedPrivacy for Windows
           </a>
-          <a
-            href="https://github.com/shurtis-0601/medprivacy/releases/download/v1.0.0/MedPrivacy-Mac.zip"
-            className="inline-block w-full bg-amber-500 text-blue-950 font-bold text-lg py-4 px-8 rounded-md hover:bg-amber-400 transition-colors"
-          >
-            Download MedPrivacy for Mac (Beta)
-          </a>
+          <p className="text-sm text-gray-600 text-center py-2">
+            Windows now. A Mac version is in progress. Reply to your welcome email to be notified.
+          </p>
         </div>
 
         <div className="text-sm text-gray-500 mb-6 text-left space-y-2">
           <p>
             <span className="font-semibold">Windows:</span> If a security prompt appears, click More info then Run anyway.
-          </p>
-          <p>
-            <span className="font-semibold">Mac:</span> Unzip the file, drag MedPrivacy to Applications, then open it. If blocked, go to System Settings then Privacy and Security and click Open Anyway.
           </p>
         </div>
 
