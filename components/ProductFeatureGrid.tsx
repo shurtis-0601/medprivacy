@@ -9,9 +9,8 @@ export function ProductFeatureGrid() {
           <div className="section-label">The Solution</div>
           <h2>What MedPrivacy Does</h2>
           <p>
-            A desktop application that runs entirely on your computer. No
-            cloud. No subscriptions to services that hold your data. No
-            technical knowledge required.
+            A desktop application that runs on your computer. No subscriptions
+            to services that hold your data. No technical knowledge required.
           </p>
         </FadeIn>
         <FadeIn className="app-screenshot">
@@ -41,7 +40,7 @@ export function ProductFeatureGrid() {
           </FadeIn>
           <FadeIn className="what-card">
             <div className="card-icon">💻</div>
-            <h3>Runs Entirely on Your Computer</h3>
+            <h3>Runs on Your Computer</h3>
             <p>
               Processing runs on your computer. MedPrivacy uploads nothing.
               The AI step that follows is where data leaves your computer. No

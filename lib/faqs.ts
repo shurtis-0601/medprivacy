@@ -12,7 +12,7 @@ export const FAQ_ITEMS: FAQItem[] = [
   {
     question: "Does MedPrivacy upload my documents to the cloud?",
     answer:
-      "No. MedPrivacy runs entirely on your local computer. Documents are never uploaded to any server. All processing happens on your machine and your machine only. No internet connection is required during document processing.",
+      "No. MedPrivacy processes documents on your computer and does not upload them to any server. If you then use an AI tool, that is where data leaves your computer, so check that tool before you use it. No internet connection is required during processing.",
   },
   {
     question: "What file formats does MedPrivacy support?",

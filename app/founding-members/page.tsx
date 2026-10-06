@@ -18,7 +18,7 @@ export default function FoundingMembersPage() {
             Free 30-day MedPrivacy trial for the Founding 100. Your download lands in your inbox in under a minute.
           </p>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            This is the privacy-safe AI workflow built for NDIS and Allied Health documentation. MedPrivacy strips identifying information from your clinical documents before anything goes near AI. Everything runs on your computer. Nothing goes to the cloud.
+            This is the privacy-safe AI workflow built for NDIS and Allied Health documentation. MedPrivacy strips identifying information from your clinical documents before anything goes near AI. Processing runs on your computer and MedPrivacy uploads nothing. The AI step that follows is where data leaves your computer.
           </p>
         </section>
 
@@ -30,7 +30,7 @@ export default function FoundingMembersPage() {
               <ul className="space-y-4 text-gray-700 text-lg">
                 <li className="flex items-start">
                   <span className="text-amber-500 font-bold mr-3">✓</span>
-                  Direct download link to MedPrivacy for Windows or Mac
+                  Direct download link to MedPrivacy for Windows. A Mac version is in progress. Reply to your welcome email to be notified.
                 </li>
                 <li className="flex items-start">
                   <span className="text-amber-500 font-bold mr-3">✓</span>

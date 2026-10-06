@@ -47,8 +47,8 @@ export function ProductHero() {
             <span className="stat-label">per document</span>
           </div>
           <div className="stat-item">
-            <span className="stat-num">✓</span>
-            <span className="stat-label">Local processing</span>
+            <span className="stat-num">Local</span>
+            <span className="stat-label">processing</span>
           </div>
           <div className="stat-item">
             <span className="stat-num">30</span>
