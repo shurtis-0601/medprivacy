@@ -16,15 +16,10 @@ export function ProductHero() {
           Remove Identifiers Before You Use AI. Stay in Control of Your Data.
         </h1>
         <p className="hero-sub">
-          MedPrivacy automatically removes personal information from NDIS
-          clinical reports before you use ChatGPT, Claude or similar tools for
-          documentation, while reducing privacy risk.
+          Runs on your computer. MedPrivacy uploads nothing. Data leaves your computer only at the AI step.
         </p>
         <p className="hero-sub-2">
-          Processing runs on your computer. MedPrivacy uploads nothing. The AI
-          step that follows is where data leaves your computer.
-          <br />
-          Always review before using AI &nbsp;&nbsp;
+          Always review before using AI.
         </p>
 
         <div className="hero-btns">

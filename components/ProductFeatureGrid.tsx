@@ -15,17 +15,16 @@ export function ProductFeatureGrid() {
         </FadeIn>
         <FadeIn className="app-screenshot">
           <Image
-            src="https://images.squarespace-cdn.com/content/v1/663abc9bb2142153b3780b43/3bc2cd63-8f48-4645-81bc-56db545a6228/MedPrivacy+UI.png?format=2500w"
-            alt="MedPrivacy desktop app showing the Process tab with Add Files, Run De-identification and Open Output Folder"
-            width={2500}
-            height={1500}
+            src="/medprivacy-2.1.2-screenshot.webp"
+            alt="MedPrivacy 2.1.2 Process tab with three invented test files awaiting review"
+            width={2000}
+            height={1201}
             sizes="(max-width: 860px) 100vw, 860px"
             loading="lazy"
           />
         </FadeIn>
         <p className="app-screenshot-caption">
-          MedPrivacy — Process tab. Add files, click Run, open your
-          De-identified folder.
+          MedPrivacy 2.1.2. Add files, run, then review each output before further use.
         </p>
         <div className="what-cards">
           <FadeIn className="what-card">
