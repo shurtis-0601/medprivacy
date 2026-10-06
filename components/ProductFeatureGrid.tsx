@@ -16,7 +16,7 @@ export function ProductFeatureGrid() {
         <FadeIn className="app-screenshot">
           <Image
             src="/medprivacy-2.1.2-screenshot.webp"
-            alt="MedPrivacy 2.1.2 Process tab with three invented test files awaiting review"
+            alt="MedPrivacy 2.1.2 Process tab with one invented test file awaiting review"
             width={2000}
             height={1201}
             sizes="(max-width: 860px) 100vw, 860px"

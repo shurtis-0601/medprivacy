@@ -12,13 +12,13 @@ export default function FoundingMembersPage() {
             FOUNDING MEMBER TRIAL
           </div>
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-blue-950 mb-6 font-bold leading-tight">
-            Get the Privacy-Safe AI Workflow
+            Remove Identifiers Before You Use AI
           </h1>
           <p className="text-xl md:text-2xl text-gray-700 mb-8 max-w-3xl mx-auto">
-            Free 30-day MedPrivacy trial for the Founding 100. Your download lands in your inbox in under a minute.
+            Free 30-day MedPrivacy founding member trial. Your download and database template are sent to your inbox.
           </p>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            This is the privacy-safe AI workflow built for NDIS and Allied Health documentation. MedPrivacy strips identifying information from your clinical documents before anything goes near AI. Processing runs on your computer and MedPrivacy uploads nothing. The AI step that follows is where data leaves your computer.
+            MedPrivacy is built for NDIS and Allied Health documentation. It removes direct identifiers from your documents before you use an AI tool. Processing runs on your computer and MedPrivacy uploads nothing. The AI step that follows is where data leaves your computer.
           </p>
         </section>
 
@@ -52,7 +52,7 @@ export default function FoundingMembersPage() {
               <div className="space-y-6">
                 <div>
                   <h3 className="font-bold text-lg text-blue-950">Step 1: Drop your details below</h3>
-                  <p className="text-gray-600 mt-1">Your download and database template land in your inbox within 60 seconds.</p>
+                  <p className="text-gray-600 mt-1">Your download and database template land in your inbox within a few minutes.</p>
                 </div>
                 <div>
                   <h3 className="font-bold text-lg text-blue-950">Step 2: Install MedPrivacy and set up your database</h3>
@@ -60,7 +60,7 @@ export default function FoundingMembersPage() {
                 </div>
                 <div>
                   <h3 className="font-bold text-lg text-blue-950">Step 3: Tell me honestly what works and what does not</h3>
-                  <p className="text-gray-600 mt-1">I will check in on days 3, 14 and 28. Your feedback directly shapes the product. At the end of 30 days, founding members lock in a permanent rate based on what they tell me feels fair.</p>
+                  <p className="text-gray-600 mt-1">I will check in on days 3, 14 and 28. Your feedback directly shapes the product. At the end of 30 days, founding members are offered a founding rate, agreed with me directly.</p>
                 </div>
               </div>
             </div>
@@ -109,7 +109,8 @@ export default function FoundingMembersPage() {
           </form>
 
           <p className="text-center text-sm text-gray-500 mt-6 max-w-sm mx-auto">
-            CollabEdge Solutions respects your privacy. Your details are used only to manage your MedPrivacy trial and will never be shared with third parties.
+            CollabEdge Solutions respects your privacy. Your details are used to manage your MedPrivacy trial and to follow up with you about it. We do not sell them or share them with third parties for their own marketing.{" "}
+            <a href="https://www.collabedgesolutions.com.au/privacy" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-700">Read our privacy policy</a>
           </p>
         </section>
       </main>
