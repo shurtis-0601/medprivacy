@@ -29,12 +29,14 @@ export function ProductHero() {
           >
             Start Your Free 30-Day Trial
           </a>
+          {/* HIDDEN UNTIL NEW VIDEO: restore the block below when a new demo video exists at collabedgesolutions.com.au/resources/videos
           <a
             href="https://www.collabedgesolutions.com.au/resources/videos"
             className="btn btn-outline"
           >
             Watch How It Works
           </a>
+          */}
         </div>
         <div className="hero-stats">
           <div className="stat-item">

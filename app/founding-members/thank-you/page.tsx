@@ -11,7 +11,7 @@ export default function ThankYouPage() {
         </div>
         <h1 className="text-3xl font-bold text-blue-950 mb-4">Check your inbox</h1>
         <p className="text-lg text-gray-700 mb-8">
-          Your MedPrivacy download and database template are in your inbox now. If you do not see the email within a minute, please check your spam folder.
+          Your MedPrivacy download and database template are in your inbox now. If you do not see the email within a few minutes, please check your spam folder.
         </p>
 
         <div className="space-y-3 mb-3">
